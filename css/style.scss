@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+
+  }  
+.body-img{
+
+  background: url('../image/gign1.jpg');
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+}
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.body-main{
+  // height: 100vh;
+  background: rgb(23,40,48);
+  background: -moz-linear-gradient(45deg, rgba(23,40,48,1) 0%, rgba(31,82,95,1) 49%, rgba(56,71,74,1) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(23,40,48,1) 0%, rgba(31,82,95,1) 49%, rgba(56,71,74,1) 100%);
+  background: linear-gradient(45deg, rgba(23,40,48,1) 0%, rgba(31,82,95,1) 49%, rgba(56,71,74,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#172830',endColorstr='#38474a',GradientType=1);
+}
+
+.text-block {
+text-align: center;
+margin: 0 auto;
+margin-top: 25%;
+width: fit-content;
+
+
+  &__subtitle {
+    font-size: 30px;
+    color: aliceblue;
+
+  }
+
+  &__title {
+    color: aliceblue;
+
+  }
+
+  &__description {
+    font-size: 25px;
+    color: aliceblue;
+
+  }
+
+  &__button {
+    font-size: 20px;
+    margin-right: 2%;
+    color: aliceblue;
+    background-color:cadetblue;
+    border: none;
+    border-radius: 7px;
+    padding: 0 10px;
+    line-height: 40px;
+
+  }
+}
+
+
+
+  
+ 
+.registration {
+
+  &_form {
+      margin: 0 auto;
+      margin-top: 100px;
+      max-width: 800px;
+      display: flex;
+      flex-direction: column;
+
+  }
+
+  &__body {
+  }
+
+  &__input {
+    font-size: 24px!important;
+    color: aliceblue;
+
+  }
+
+  &__submit {
+      margin-top: 10px;
+      position: relative;
+      width: 100%;
+      height: 60px;
+      color: aliceblue;
+
+      &:hover{
+          // background-color: white;
+          // color: #222224;
+          border:1px solid #222224;
+          transition: 0.1s ease-in-out;
+
+      }
+      background-color: #222224;
+      box-shadow: 0px 2px 5px 1px rgba(34, 60, 80, 0.068);
+      
+      margin-bottom: 15px;
+    
+      letter-spacing: 0.1ch;
+      font-family: "Roboto",sans-serif;
+      font-size: 1.4rem;
+      // color: white;
+  }
+}
+.part {color: aliceblue;
+  input{
+      width: 6%;
+  }
+}
+.msg {
+  font-size: 1.5em;
+
+}
+
+
+.completed {
+
+  &__body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  &__item {
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__about {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: 24px;
+  }
+
+  &__price {
+    color:chartreuse;
+    font-size: 24px;
+
+  }
+}
+.registration {
+  h5{
+    margin-right: 15px;
+    color: aliceblue;
+  }
+  &_form {
+  }
+
+  &__body {
+  }
+
+  &__input {
+    margin-bottom: 15px;
+  }
+  &__button {
+    font-size: 20px;
+    margin-right: 2%;
+    color: aliceblue;
+    background-color:cadetblue;
+    border: none;
+    border-radius: 7px;
+    padding: 0 10px;
+    line-height: 40px;
+
+  }
+  &__textarea {
+    height: 200px;
+    resize: none;
+  }
+}
+.profile {
+
+  &__body {
+    color:aliceblue;
+  }
+}
+
+.admin__item {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.admin__submit{
+  border: none;
+  color: lightgreen;
+  background-color:transparent;
+  font-size: 24px;
+}
+.admin__decline{
+  text-decoration: none;
+  border: none;
+  color: red;
+  background-color:transparent;
+  font-size: 22px;
+}
+.completed {
+
+  &__title {
+    color: aliceblue;
+  }
+
+  &__text {
+    height: 60px;
+    color: aliceblue;
+
+  }
+}

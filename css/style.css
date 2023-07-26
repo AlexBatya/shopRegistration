@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.body-img {
+  background: url("../image/gign1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body-main {
+  background: rgb(23, 40, 48);
+  background: linear-gradient(45deg, rgb(23, 40, 48) 0%, rgb(31, 82, 95) 49%, rgb(56, 71, 74) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#172830",endColorstr="#38474a",GradientType=1);
+}
+
+.text-block {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 25%;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.text-block__subtitle {
+  font-size: 30px;
+  color: aliceblue;
+}
+.text-block__title {
+  color: aliceblue;
+}
+.text-block__description {
+  font-size: 25px;
+  color: aliceblue;
+}
+.text-block__button {
+  font-size: 20px;
+  margin-right: 2%;
+  color: aliceblue;
+  background-color: cadetblue;
+  border: none;
+  border-radius: 7px;
+  padding: 0 10px;
+  line-height: 40px;
+}
+
+.registration_form {
+  margin: 0 auto;
+  margin-top: 100px;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+.registration__input {
+  font-size: 24px !important;
+  color: aliceblue;
+}
+.registration__submit {
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+  height: 60px;
+  color: aliceblue;
+  background-color: #222224;
+  box-shadow: 0px 2px 5px 1px rgba(34, 60, 80, 0.068);
+  margin-bottom: 15px;
+  letter-spacing: 0.1ch;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+}
+.registration__submit:hover {
+  border: 1px solid #222224;
+  transition: 0.1s ease-in-out;
+}
+
+.part {
+  color: aliceblue;
+}
+.part input {
+  width: 6%;
+}
+
+.msg {
+  font-size: 1.5em;
+}
+
+.completed__body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.completed__item {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+.completed__img {
+  width: 100%;
+}
+.completed__about {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.completed__title {
+  font-size: 24px;
+}
+.completed__price {
+  color: chartreuse;
+  font-size: 24px;
+}
+
+.registration h5 {
+  margin-right: 15px;
+  color: aliceblue;
+}
+.registration__input {
+  margin-bottom: 15px;
+}
+.registration__button {
+  font-size: 20px;
+  margin-right: 2%;
+  color: aliceblue;
+  background-color: cadetblue;
+  border: none;
+  border-radius: 7px;
+  padding: 0 10px;
+  line-height: 40px;
+}
+.registration__textarea {
+  height: 200px;
+  resize: none;
+}
+
+.profile__body {
+  color: aliceblue;
+}
+
+.admin__item {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.admin__submit {
+  border: none;
+  color: lightgreen;
+  background-color: transparent;
+  font-size: 24px;
+}
+
+.admin__decline {
+  text-decoration: none;
+  border: none;
+  color: red;
+  background-color: transparent;
+  font-size: 22px;
+}
+
+.completed__title {
+  color: aliceblue;
+}
+.completed__text {
+  height: 60px;
+  color: aliceblue;
+}/*# sourceMappingURL=style.css.map */
